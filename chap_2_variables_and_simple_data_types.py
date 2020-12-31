@@ -34,3 +34,7 @@ print(str7.strip())
 age = 23
 messg = "i'm " + str(age) + " years old"
 print(messg)
+#division 
+# 3/2 --> 1 (ommits the decimal not roundoff)
+# 3.0/2 or 3/2.0 --> 1.5 (floating point)
+
