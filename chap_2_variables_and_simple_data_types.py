@@ -21,3 +21,16 @@ str6 = "when you don't feel like doing it"
 qoute_1 = str5 + ' ' + '\n\t' + str6
 print(qoute_1)
 
+''' Whitespace Strip '''
+str7 = 'right  '
+str8 = '  left'
+str9 = ' both sides '
+print(str7.rstrip())
+print(str8.lstrip())
+print(str9.strip())
+print(str7.strip())
+
+''' Integers in python '''
+age = 23
+messg = "i'm " + str(age) + " years old"
+print(messg)
