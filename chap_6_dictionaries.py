@@ -27,3 +27,21 @@ fav_languages = {
     'Mark' : 'c++',
 }
 
+''' Refer the rest from thr book ''' # --> dic in lists and dic in dic
+webpage = 'http://bedford-computing.co.uk/learning/wp-content/uploads/2015/10/No.Starch.Python.Oct_.2015.ISBN_.1593276036.pdf'
+page_no = 110
+
+''' extract stuff form dic '''
+# key, value
+for k, v in alien_0.items():
+    print(k, v)
+
+# key
+for k in alien_0.keys():
+
+# values
+for v in alien_0.values():
+
+# all the above return a list, so, could use, sorted(lst) or slicing etc. 
+    
+
